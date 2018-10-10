@@ -1,0 +1,18 @@
+﻿  Simon.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(212): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(396): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(396): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(420): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(421): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(422): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(423): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(429): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(571): warning C4305: '=': truncation from 'double' to 'float'
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(573): warning C4305: '=': truncation from 'double' to 'float'
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(581): warning C4305: '=': truncation from 'double' to 'float'
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(583): warning C4305: '=': truncation from 'double' to 'float'
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(655): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\study\tai lieu game directx\new folder\gamecastlevania_tahitu\simon.cpp(657): warning C4305: 'argument': truncation from 'double' to 'float'
+  GameCastleVania_Tahitu.vcxproj -> D:\Study\Tai Lieu Game DirectX\New folder\Debug\GameCastleVania_Tahitu.exe

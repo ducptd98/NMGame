@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Simon" Collapsed="true">
+    <Position X="15.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAFKFAQAAAIQAAgAAoIgAUAEMVAigVAAAgsQCoMAoA=</HashCode>
+      <FileName>Simon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EffectAttack" Collapsed="true">
+    <Position X="110.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAICAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EffectAttack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="30.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACgAAAAAAgAIgAAIIAAAAAIAAAAgAAAAAACAEAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bat" Collapsed="true">
+    <Position X="27" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAIAAAoAAABAAACAAAAAAAAAACAEAAA=</HashCode>
+      <FileName>Bat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoneTower" Collapsed="true">
+    <Position X="31.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABQEAAAAAAAAAIAAAICAAgAAAAIAAAAAAAAACAEAAA=</HashCode>
+      <FileName>BoneTower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoneTower_Bullet" Collapsed="true">
+    <Position X="99" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAIQAAAABIAAAAAAAAAAACCkAAg=</HashCode>
+      <FileName>BoneTower_Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ghost" Collapsed="true">
+    <Position X="36" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgIoAAIAAAAAAAAAAAAAAAAEACAEAAA=</HashCode>
+      <FileName>Ghost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedusaHead" Collapsed="true">
+    <Position X="38.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAEACAUAAA=</HashCode>
+      <FileName>MedusaHead.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedusaHead_List" Collapsed="true">
+    <Position X="40.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAgQAIQAAAAAAAAAEAAAABAACBkAAA=</HashCode>
+      <FileName>MedusaHead_List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpearKnight" Collapsed="true">
+    <Position X="42.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAIAAAIIAAAAIAAAAAAAAAAAACAEAAA=</HashCode>
+      <FileName>SpearKnight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fleamen" Collapsed="true">
+    <Position X="18" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAgAAAAAIAAAIAAAAAAAAAAAAAAAAAACEEAAA=</HashCode>
+      <FileName>Fleamen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Raven" Collapsed="true">
+    <Position X="20.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAIoAIIAIIAABAAAAAAQAAAEACAEAAA=</HashCode>
+      <FileName>Raven.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skeleton" Collapsed="true">
+    <Position X="22.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAgAAAAAAgAIABCIAAAAAAAAAAAAAAAAAACAEAAI=</HashCode>
+      <FileName>Skeleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skeleton_Bone" Collapsed="true">
+    <Position X="94.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAgAAgAAIRAAAAAJAACAAAAAAAAABkAAA=</HashCode>
+      <FileName>Skeleton_Bone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Medusa" Collapsed="true">
+    <Position X="24.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAFAAgAIgBIIAIAgAFAAAAAAAAIAEACBEAAA=</HashCode>
+      <FileName>Medusa.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Medusa_Snake" Collapsed="true">
+    <Position X="29.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAABAAAAgAAIQAAAAAAAAAAAAIAAAACAkAIA=</HashCode>
+      <FileName>Medusa_Snake.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MummyMan" Collapsed="true">
+    <Position X="33.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAEAAAAIgQIIAIAgABAAAAAIAABAEACAEAAg=</HashCode>
+      <FileName>MummyMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MummyMan_Bandage" Collapsed="true">
+    <Position X="101.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAgAAIQAAAEAIAAAAAAAAAAAABkAQA=</HashCode>
+      <FileName>MummyMan_Bandage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="74.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAIgAAAAAAAEAAAAAAAACAACACAEAAA=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LargeHeart" Collapsed="true">
+    <Position X="90" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LargeHeart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PurpleMoneyBag" Collapsed="true">
+    <Position X="56.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>PurpleMoneyBag.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedMoneyBag" Collapsed="true">
+    <Position X="60.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RedMoneyBag.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmallHeart" Collapsed="true">
+    <Position X="65.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SmallHeart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WhipUpgrade" Collapsed="true">
+    <Position X="69.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAE=</HashCode>
+      <FileName>WhipUpgrade.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WhiteMoneyBag" Collapsed="true">
+    <Position X="74.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WhiteMoneyBag.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoomerangItem" Collapsed="true">
+    <Position X="76.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BoomerangItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DaggerItem" Collapsed="true">
+    <Position X="78.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DaggerItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HolyWaterItem" Collapsed="true">
+    <Position X="81" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAA=</HashCode>
+      <FileName>HolyWaterItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StopWatchItem" Collapsed="true">
+    <Position X="83.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>StopWatchItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThrowingAxeItem" Collapsed="true">
+    <Position X="85.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThrowingAxeItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BonusesItem" Collapsed="true">
+    <Position X="87.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BonusesItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChestsItem" Collapsed="true">
+    <Position X="92.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ChestsItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrossItem" Collapsed="true">
+    <Position X="58.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CrossItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrownsItem" Collapsed="true">
+    <Position X="63" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAQAAEAAA=</HashCode>
+      <FileName>CrownsItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrystalBallItem" Collapsed="true">
+    <Position X="67.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEgAA=</HashCode>
+      <FileName>CrystalBallItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvisibilityPotionItem" Collapsed="true">
+    <Position X="72" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvisibilityPotionItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackItem" Collapsed="true">
+    <Position X="45" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>BlackItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Brick" Collapsed="true">
+    <Position X="48.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIgAAABAAAAAAIAAEAAAAAAACAAAAQ=</HashCode>
+      <FileName>Brick.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoubleShotItem" Collapsed="true">
+    <Position X="47.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DoubleShotItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PorkChop" Collapsed="true">
+    <Position X="49.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PorkChop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TripleShotItem" Collapsed="true">
+    <Position X="51.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TripleShotItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowGame" Collapsed="true">
+    <Position X="142.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAADAAIAAAAABAAAQAAAAIQAAAAAA=</HashCode>
+      <FileName>WindowGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWaveFile" Collapsed="true">
+    <Position X="138.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EggAACAARAAAIAiAAAAEAAgwAgABAAgIAAAAAIGIAAA=</HashCode>
+      <FileName>CWaveFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSound" Collapsed="true">
+    <Position X="140.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAAAAAAAAAAAEAAAAAAADgggQAAAAAAAAAAAA=</HashCode>
+      <FileName>GameSound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound" Collapsed="true">
+    <Position X="137" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAIEAIAAAAAAAAAAAECAAACgAAAABAAIABAAAAA=</HashCode>
+      <FileName>Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphics" Collapsed="true">
+    <Position X="135.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAACCAAAIAEEAAAEAEAIAAACBBAAQ4AAAEAABIAAAE=</HashCode>
+      <FileName>Graphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animate" Collapsed="true">
+    <Position X="135.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAQAAQAAAAIAAAAAAQIAAAA=</HashCode>
+      <FileName>Animate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="138.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAEAAAAAIQAAAAAACBAAI=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteManager" Collapsed="true">
+    <Position X="140.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAABAAAAAAAIBAAAQBAAAAAACAAAA=</HashCode>
+      <FileName>SpriteManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="137" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAABAAAoAAAAAAAAEAAAAACAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Keyboard" Collapsed="true">
+    <Position X="138.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAACAABAACAAABAAAAAAFQAEQgAAACQBAAAAQ=</HashCode>
+      <FileName>Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyGame" Collapsed="true">
+    <Position X="140.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AOAADCIAAIgASAoAAIAkAACIACBAAAQAAAAAAAAEIAg=</HashCode>
+      <FileName>KeyGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager" Collapsed="true">
+    <Position X="137" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAQAAAAAAAAAAAAIBoAAQAAAAAAACAACA=</HashCode>
+      <FileName>CollisionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTime" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAgAAAAAAIAQQgAABAAAQAAQAAAAAEACA=</HashCode>
+      <FileName>GameTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTimeLoop" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAIAAAAAgAwAAACAQAAAAAAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>GameTimeLoop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAQAAAAAAAAABAAAQAAAAAACAEAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABEAAggAABIAAAAAAAAACgIAAAAIAAAEAAQ=</HashCode>
+      <FileName>Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsCategory" Collapsed="true">
+    <Position X="138.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAQgAAAkAAQgAAAABAgIAAAACAAA=</HashCode>
+      <FileName>ObjectsCategory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuadNode" Collapsed="true">
+    <Position X="69.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAgAAAAAYAAAAICAAAAAAAAIAA=</HashCode>
+      <FileName>QuadNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuadTree" Collapsed="true">
+    <Position X="142.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAMEAAAAABCEAAA=</HashCode>
+      <FileName>QuadTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileMap" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAACAAIAAAQIQBAAIYABABIAAQACAAgSIAA=</HashCode>
+      <FileName>TileMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon" Collapsed="true">
+    <Position X="101.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAgAAIAAAAAAAAAAAgAAAAAAAAEAAA=</HashCode>
+      <FileName>Weapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponLocations" Collapsed="true">
+    <Position X="140.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAEwABAAAAAAAAIA=</HashCode>
+      <FileName>WeaponLocations.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Whip" Collapsed="true">
+    <Position X="112.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAIAACAAAABQAAQAAAAAAAAFAAA=</HashCode>
+      <FileName>Whip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WhipSitDown" Collapsed="true">
+    <Position X="117" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAIAACAAAADAAAQAAAAAAAAFAAA=</HashCode>
+      <FileName>WhipSitDown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StopWatch" Collapsed="true">
+    <Position X="135.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAgAAAAAAAAIAAABAAAQAAAAAAAAMAAA=</HashCode>
+      <FileName>StopWatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boomerang" Collapsed="true">
+    <Position X="96.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAABgAAIAAAgAAIAAAAAAQAAAAAAACAAAAAEAAA=</HashCode>
+      <FileName>Boomerang.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Daggers" Collapsed="true">
+    <Position X="103.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkAAIAAAAAAABAAAAAQAIAAAAEAAA=</HashCode>
+      <FileName>Daggers.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HolyWater" Collapsed="true">
+    <Position X="105.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAgEAYgAAAAAAAAAAAAAAAAACAEAAk=</HashCode>
+      <FileName>HolyWater.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThrowingAxe" Collapsed="true">
+    <Position X="108" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAEAAAABAAAgAAIAAAAAAAAAAAAAAQAAAAAEAAA=</HashCode>
+      <FileName>ThrowingAxe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CastleVaniaScene" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAAAAAAAEAAAABIAAAAQAAAAAAIAQAAAAAAEAAA=</HashCode>
+      <FileName>CastleVaniaScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeScene" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAEAAAAAIAAAgAAAAAAAIAAAAAAAAEAgA=</HashCode>
+      <FileName>ChangeScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverScene" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAUAAAAAICAAAAAAAAAAMAAAAAAAAEAAA=</HashCode>
+      <FileName>GameOverScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameState" Collapsed="true">
+    <Position X="142.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroScene" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEEAAAAIAAAAAAAAAAAIgAAAAAAAEAAA=</HashCode>
+      <FileName>IntroScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuScene" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAEAAAAAIBAAAAAAgAAAOAAAAAAAAEAAA=</HashCode>
+      <FileName>MainMenuScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapLevel3Scene" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgAAAAEAAAAAKAAAAgAAAAAAIAQAAAAAAEAAA=</HashCode>
+      <FileName>MapLevel3Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAIAAAAAQAAAAgIAAAACAAAEAAA=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stage" Collapsed="true">
+    <Position X="67.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAgBAACAgAAAAACgAAAAAAIAABAhQAAIFAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinGameScene" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAEAAAAAIAAgAAAAAAAAIAAAAAAAAEAAg=</HashCode>
+      <FileName>WinGameScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge" Collapsed="true">
+    <Position X="54" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAgAAAAAACAEAAA=</HashCode>
+      <FileName>Bridge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorChangeStage" Collapsed="true">
+    <Position X="130.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAIAAAAAAAkACAAAQAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>DoorChangeStage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stairs" Collapsed="true">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAgAAAEAACAAAAAAAAAAAhAAAAAAAg=</HashCode>
+      <FileName>Stairs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LongTrapLeft" Collapsed="true">
+    <Position X="119.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAIIAAAAAAAA=</HashCode>
+      <FileName>LongTrapLeft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LongTrapRight" Collapsed="true">
+    <Position X="121.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAAAAAAAACAAAIAAAAEAAA=</HashCode>
+      <FileName>LongTrapRight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShortTrap" Collapsed="true">
+    <Position X="123.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAABAAAA=</HashCode>
+      <FileName>ShortTrap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trap" Collapsed="true">
+    <Position X="121.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkAAAAAIgAgAAAAAAAAAAAAAAAAIAAAAEAAA=</HashCode>
+      <FileName>Trap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infomation" Collapsed="true">
+    <Position X="137" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAEAIIAAAAAAAAgAEAAAEBAQIEAAA=</HashCode>
+      <FileName>Infomation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Life" Collapsed="true">
+    <Position X="128.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAIBAAA=</HashCode>
+      <FileName>Life.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LifeEnemy" Collapsed="true">
+    <Position X="142.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>LifeEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LifePlayer" Collapsed="true">
+    <Position X="135.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAgAAAAAIAAAAAAAAAAAABAAAAAAAEAAA=</HashCode>
+      <FileName>LifePlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Number" Collapsed="true">
+    <Position X="132.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEIAAAAAAgAAAgAAAAAAAAIAAAA=</HashCode>
+      <FileName>Number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NumberOfAlive" Collapsed="true">
+    <Position X="132.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAIAAAAAAEAAAAAAAIAAAAAEAAA=</HashCode>
+      <FileName>NumberOfAlive.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NumberOfAttack" Collapsed="true">
+    <Position X="137" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAACAAIAAAAACAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>NumberOfAttack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NumberWeaponAppear" Collapsed="true">
+    <Position X="114.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAAAAAAAIAAAAAAAAAAgAAAAAAAAAEAAA=</HashCode>
+      <FileName>NumberWeaponAppear.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Score" Collapsed="true">
+    <Position X="135.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAgAAAIAAAAAAAAAAQAAAAAAAAAEAAA=</HashCode>
+      <FileName>Score.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StageNumber" Collapsed="true">
+    <Position X="142.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAIAACAAAAAAAAAAAAAAAAAFAAA=</HashCode>
+      <FileName>StageNumber.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Time" Collapsed="true">
+    <Position X="138.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACQAAAAAIAAAAAAAAAAAAAAAAAAEAEAQA=</HashCode>
+      <FileName>Time.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponType" Collapsed="true">
+    <Position X="126" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAEAAA=</HashCode>
+      <FileName>WeaponType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseObject" Collapsed="true">
+    <Position X="72" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAgAABAgAAIgQAAABAEAAgAAAAAAACAkAgE=</HashCode>
+      <FileName>BaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Box" Collapsed="true">
+    <Position X="72" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAgAJAAAAAAYAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Box.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawableObject" Collapsed="true">
+    <Position X="74.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAA4AAAAAAIAYAAQIAAAAAAFgQAAAAASAAAAAEAQA=</HashCode>
+      <FileName>DrawableObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovableObject" Collapsed="true">
+    <Position X="54" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAIAAAAAAAAAAAAAEAAAJCAEAAA=</HashCode>
+      <FileName>MovableObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OldRestore" Collapsed="true">
+    <Position X="75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAIAAwAAAACAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OldRestore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="140.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAACAAAAAAAAAAAAAAIAAABgAAAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RectF" Collapsed="true">
+    <Position X="69.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAAAAABQAQAAAAAoAAACIAAAAAABgAAAAgAA=</HashCode>
+      <FileName>RectF.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="List&lt;className&gt;" Collapsed="true">
+    <Position X="135.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAAAAAAABAgKAAAAQAAAEAQkAAgAAAABBAAAI=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="SoundMap" Collapsed="true">
+    <Position X="135.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameSound.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SoundPair" Collapsed="true">
+    <Position X="137" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameSound.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="SIMON_ACTION" Collapsed="true">
+    <Position X="137" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABgAAAAAAAQAAgAAAGhAgAAAAABAAAAAAAAAgADEI=</HashCode>
+      <FileName>Simon.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WEAPON_TYPE" Collapsed="true">
+    <Position X="135.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAMAAAAACABAAI=</HashCode>
+      <FileName>Simon.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ITEM_ACTION" Collapsed="true">
+    <Position X="138.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BGADAAAAEIEAAAAAACAAAEEIAAAABAAIABAAAABACAA=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ITEM_TYPE" Collapsed="true">
+    <Position X="140.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAAAQgAAAIgAAAAAAACAAAAQAAABAAAACgggkAA=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BRICK_ACTION" Collapsed="true">
+    <Position X="135.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAQAAgEAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Brick.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BRICK_TYPE" Collapsed="true">
+    <Position X="137" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Brick.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BRICK_TYPE_3" Collapsed="true">
+    <Position X="138.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAACAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Brick.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SOUND_ID" Collapsed="true">
+    <Position X="138.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABAAQEAAAAAAAAAAAQAAQAAAgQCCAAAAQEAI=</HashCode>
+      <FileName>Sound.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SPRITE_OBJECT" Collapsed="true">
+    <Position X="140.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACFACUAQQAIEBAQAAIGABCEgAAACgIMAEEBABoIAA=</HashCode>
+      <FileName>SpriteManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Direction" Collapsed="true">
+    <Position X="142.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GAMESTATE" Collapsed="true">
+    <Position X="137" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAIAAAAAAAAAAAAAAAAACAAAAAEAAAAAgAAAA=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DOOR_ACTION" Collapsed="true">
+    <Position X="135.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAACAAACAACA=</HashCode>
+      <FileName>DoorChangeStage.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STAIR_TYPE" Collapsed="true">
+    <Position X="142.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAQAIAAA=</HashCode>
+      <FileName>Stairs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LIFE_TYPE" Collapsed="true">
+    <Position X="142.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAQAAAAAAAAAAAAABBAAAAAACAAAA=</HashCode>
+      <FileName>Life.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NUMBER_TYPE" Collapsed="true">
+    <Position X="135.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>NumberWeaponAppear.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="COLLISION_TYPE" Collapsed="true">
+    <Position X="140.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAgAAJAAAEABIAAAAAAABAAAAAgAAAAAgg=</HashCode>
+      <FileName>BaseObject.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

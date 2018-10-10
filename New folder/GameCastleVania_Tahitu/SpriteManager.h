@@ -1,0 +1,59 @@
+#pragma once
+#include "Sprite.h"
+
+//add
+enum SPRITE_OBJECT
+{
+	SPR_STAIRS = -2,
+	SPR_GROUND,
+	SPR_SIMON,
+	SPR_SPEARKNIGHT,
+	SPR_WHIP1,
+	SPR_WHIP2,
+	SPR_WHIP3,
+	SPR_MEDUSAHEAD,
+	SPR_GHOST,
+	SPR_BAT,
+	SPR_BONETOWER,
+	SPR_BONETOWER_BULLET,
+	SPR_FLEAMEN,
+	SPR_RAVEN,
+	SPR_SKELETON,
+	SPR_SKELETON_BONE,
+	SPR_DELETEOBJECT,
+	SPR_ATTACKENEMY,
+	SPR_DOORCHANGESTAGE,
+	SPR_DAGGER,
+	SPR_BOOMERANG,
+	SPR_ITEM,
+	SPR_HOLYWATER,
+	SPR_INFOMATION,
+	SPR_BRIDGE,
+	SPR_BRICK,
+	SPR_THROWING_AXE,
+	SPR_LONG_TRAP_LEFT,
+	SPR_SHORT_TRAP,
+	SPR_LONG_TRAP_RIGHT,
+	SPR_KILL_BOSS,
+	SPR_BRICK_LEVEL3,
+	SPR_MEDUSA,
+	SPR_MEDUSA_SNAKE,
+	SPR_MUMMYMAN,
+	SPR_MUMMYMAN_BANDAGE,
+	SPR_COUNT
+};
+
+class SpriteManager
+{
+	static SpriteManager* instance;
+public:
+	static SpriteManager* getInstance();
+
+	Sprite** sprites;
+	Texture* enemies;
+	Texture* bosses;
+
+	SpriteManager();
+	~SpriteManager();
+};
+
